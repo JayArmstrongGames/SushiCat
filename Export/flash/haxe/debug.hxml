@@ -1,0 +1,18 @@
+-main ApplicationMain 
+-cp /usr/lib/haxe/lib/openfl/2,1,1
+-D openfl=2.1.1
+-cp /usr/lib/haxe/lib/lime/2,0,0-alpha,2
+-D lime=2.0.0-alpha.2
+-cp Source
+-D lime-openal
+-D tools=2.0.0-alpha.2
+-D no-compilation
+-D lime-opengl
+-D openfl-flash
+-D lime-curl
+-D web
+-swf-version 11.2
+-swf Export/flash/bin/SushiCat.swf
+-swf-header 800:600:30:FFFFFF
+-cp Export/flash/haxe
+-debug
